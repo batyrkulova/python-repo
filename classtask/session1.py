@@ -103,6 +103,33 @@
 
 # inp = ( 37 * 9/5) +32 
 # print(inp)
+# Python is a programing language, interpterer
+# Compiled files only runs if the syntex is correct. It creates a separated binary file
+#  Interpreter Program. No need for a separate file , needs an interpreter ( python3)
+
+
+# Variables: notes specific data type value ( 10, hello words )
+
+# Data types: 
+# -string
+# -integeres
+# -floats
+
+# Numeric data types :
+# -All sort if mathematic equations(+-/*%//**)
+
+# Strings:
+# - Takes plaintext (alphanumeric)
+# - Input fuction is by dafylat string data type 
+# -int(); float()
+# Our latters converted to computer by ascii table
+# A = 65 ---> binary ---> computers understans it
+# -string indexing --> always starts with 0 
+# -len 
+# print
+# type ( returns the data type )
+# string slising (::2)
+# print(edn='n', sep=' ')
 
 
 
