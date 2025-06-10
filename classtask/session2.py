@@ -110,3 +110,21 @@
 # else:
 #     print("Its not a leap year ")
 
+# inp = input("First Boolean: ")
+# inp2 = input("Sesond Boolean: ")
+
+# bool1= False
+# bool2 = False
+# if inp == 'True': 
+#     bool1 = True
+# else:
+#     bool1 = False
+
+# if inp == 'True': 
+#     bool2 = True
+# else:
+#     bool2 = False
+# print(f"{inp} and {inp2} == {bool2 and bool2}")
+# print(f"{inp} or {inp2} == {bool2 and bool2}")
+# print(f"{inp} and not {inp2} == {bool2 and bool2}")
+    
