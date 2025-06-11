@@ -31,16 +31,16 @@
 
 
 # Task 4:
-# numbers = list(map(int, input("Enter numbers: ").split()))
-# larg = 1
-# secd = 1
-# for i in numbers: 
-#     if i > larg:
-#         secd = larg
-#         larg = i
-#     elif i > secd and i != larg:
-#         secd = i
-# print(secd)
+numbers = list(map(int, input("Enter numbers: ").split()))
+larg = 0
+secd = 0
+for i in numbers: 
+    if i > larg:
+        secd = larg
+        larg = i
+    elif i > secd and i != larg:
+        secd = i
+print(secd)
 
 
 
