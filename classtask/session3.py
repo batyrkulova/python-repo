@@ -134,16 +134,16 @@
 # print(x, y)
 
 
-char = input("Please enter a character: ")
-lst_fruits = ["pinaple", "pear", "kiwi", "apricot","peach", "pear", "cherry", "melon" ]
-count = 0 
-for fruit in lst_fruits: 
-    if char in fruit:
-        print(fruit)
-    else:
-        count +=1
-if count == len(lst_fruits):
-    print("No fruits")
+# char = input("Please enter a character: ")
+# lst_fruits = ["pinaple", "pear", "kiwi", "apricot","peach", "pear", "cherry", "melon" ]
+# count = 0 
+# for fruit in lst_fruits: 
+#     if char in fruit:
+#         print(fruit)
+#     else:
+#         count +=1
+# if count == len(lst_fruits):
+#     print("No fruits")
     
 
 
