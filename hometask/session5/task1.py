@@ -61,15 +61,6 @@ product_data = {
     ]
 }
 
-
-Task 1: Print All Out-of-Stock Products
-Note: Change some of the stock items to 0 in the dictionary
-
-Use the product_data dictionary and print the names of products that are out of stock (i.e., stock is 0).
-Example Output:
- Out of stock: Bluetooth Speaker
- Out of stock: Wireless Charger
-
 for values in product_data['products']:
     if values["stock"] <= 0:
         print(values["name"])

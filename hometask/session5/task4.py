@@ -60,12 +60,6 @@ product_data = {
     ]
 }
 
-# Task 4: Show Discounted Prices for All Products
-# Apply a 10% discount to every product and print the name, original price, and discounted price.
-# Example Output:
-#  Wireless Mouse - Original: $29.99 | Discounted: $26.99
-#  Mechanical Keyboard - Original: $79.99 | Discounted: $71.99
-
 for values in product_data['products']:
     dis = values['price'] * 0.9 
     print(values['name'])

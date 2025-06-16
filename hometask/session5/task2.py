@@ -60,13 +60,6 @@ product_data = {
     ]
 }
 
-# Task 2: List Products Over $50 with High Rating
-# Print the name, price, and average rating of products where the price is greater than $50 and the average rating is above 4.5.
-# Example Output:
-#  Mechanical Keyboard - $79.99 - Rating: 4.7
-#  Noise-Canceling Headphones - $199.99 - Rating: 4.8
-
-
 for values in product_data['products']:
     if values['price'] >= 50 and values['ratings']['average'] >= 4.5:
         print(values["name"])

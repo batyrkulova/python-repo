@@ -60,10 +60,6 @@ product_data = {
     ]
 }
 
-# Task 3: Create a List of All Unique Brands
-# Loop through the product data and store all unique brands in a list. Then print the final list.
-# Example Output:
-#  Available brands: ['LogiTech', 'KeyChron', 'Sony']
 
 unique = []
 for values in product_data['products']:
