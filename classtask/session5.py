@@ -5,55 +5,55 @@
 
 #create a dict structure for laptop
 
-laptop = {
-    "Dell": {
-        "software": {
-            "os": "Linux Mint",
-            "version": "22.04",
-            "applications": ["python", "vscode", "slack"]
-        },
+# laptop = {
+#     "Dell": {
+#         "software": {
+#             "os": "Linux Mint",
+#             "version": "22.04",
+#             "applications": ["python", "vscode", "slack"]
+#         },
 
-        "hardware": {
-            "model": "XPS 15",
-            "cpu": "Inter Core i5, (6 cores)",
-            "ram": "8gb",
-            "storage": "256gb",
-            "screen": "ips"
-        }
-    },
+#         "hardware": {
+#             "model": "XPS 15",
+#             "cpu": "Inter Core i5, (6 cores)",
+#             "ram": "8gb",
+#             "storage": "256gb",
+#             "screen": "ips"
+#         }
+#     },
 
-    "MacBook": {
-        "software": {
-            "os": "Mac OS",
-            "version": "Sequoia 15.01",
-            "applications": ["telegram", "slack", "ms teams"]
-        },
+#     "MacBook": {
+#         "software": {
+#             "os": "Mac OS",
+#             "version": "Sequoia 15.01",
+#             "applications": ["telegram", "slack", "ms teams"]
+#         },
 
-        "hardware": {
-            "model": "macbook air",
-            "cpu": "M1 8(cores)",
-            "ram": "8gb",
-            "storage": "512gb",
-            "screen": "ips"
-        }
-    },
+#         "hardware": {
+#             "model": "macbook air",
+#             "cpu": "M1 8(cores)",
+#             "ram": "8gb",
+#             "storage": "512gb",
+#             "screen": "ips"
+#         }
+#     },
 
-    "Acer": {
-        "software": {
-            "os": "Linux Ubuntu",
-            "version": "22.04",
-            "applications": ["python", "nodejs", "slack"]
-        },
+#     "Acer": {
+#         "software": {
+#             "os": "Linux Ubuntu",
+#             "version": "22.04",
+#             "applications": ["python", "nodejs", "slack"]
+#         },
 
-        "hardware": {
-            "model": "Swift 16",
-            "cpu": "Inter Core i9, (16 cores)",
-            "ram": "32gb",
-            "storage": "1tb",
-            "screen": "oled"
-        }
-    }
-}
+#         "hardware": {
+#             "model": "Swift 16",
+#             "cpu": "Inter Core i9, (16 cores)",
+#             "ram": "32gb",
+#             "storage": "1tb",
+#             "screen": "oled"
+#         }
+#     }
+# }
 
 #Task1.
 #Get all the laptop names
@@ -97,7 +97,7 @@ laptop = {
 
 #Functions 
 # function is a block of reusble code
-# What is return? IS a keyword that is used only in fuctionst
+# What is return? Is a keyword that is used only in fuctionst
 #return is used to output a data type
 #What is the difference between print and return? 
 
@@ -106,3 +106,15 @@ laptop = {
 #     return(f"Hello, {name}")
 # inp = input("What is your name: ")
 # print(greet(inp))
+
+from session6 import students
+
+dic = {
+    "elsu": 100,
+    "sam": 45,
+    "kat": 89,
+    "lisa": 90
+}
+
+print(students(dic))
+
